@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv
+exec_prefix=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv
+libdir=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv/lib
+includedir=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://xz.tukaani.org/xz-utils/
+Version: 5.4.6
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

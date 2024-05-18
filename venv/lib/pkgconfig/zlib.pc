@@ -1,0 +1,13 @@
+prefix=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv
+exec_prefix=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv
+libdir=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv/lib
+sharedlibdir=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv/lib
+includedir=/Users/r.s/Desktop/Gen AI Projects/krish naik/ML project/bostonhousepricing/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
